@@ -13,6 +13,12 @@ All of the dnn module is located in [dnn](./dnn) folder. One may feel free to ut
 
 The working file [mnist.ipynb](mnist.ipynb) is for hyperparameter searching, and the file [visualizer.ipynb](visualize.ipynb) is for parameter visualization.
 
+A package of python-mnist is supposed to be installed in advance.
+
+```bash
+pip install python-mnist
+```
+
 ## Load Trained Model
 
 Put the downloaded model named *mnist_hidden_256.pkl* (or any other file ends with *.pkl*) under [model](./model) directory.
