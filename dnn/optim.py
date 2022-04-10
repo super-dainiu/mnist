@@ -14,7 +14,6 @@ class SGD(object):
         for layer in self.net.layers:
             if layer.requires_grad:
                 grad = layer.weight_grad.copy()
-                # print(np.linalg.norm(grad), np.linalg.norm(layer.weight))
                 if self.decay is not None:
                     grad += layer.weight * self.decay
                 layer.weight -= self.lr * grad
