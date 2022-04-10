@@ -6,7 +6,7 @@ All of the dnn module is located in [dnn](./dnn) folder. One may feel free to ut
 - [functional.py](./dnn/functional.py) provides all of the loss function, activation functions and linear layers required for this project. Specially, the Softmax classifier connected to the CrossEntropyLoss does not involve in the backpropagation,
   because the gradient of these two combined
   is easier to compute.
-- [nn.py](nn.py) provides a Module template for our net.
+- [nn.py](./dnn/nn.py) provides a Module template for our net.
 - [optim.py](./dnn/optim.py) provides an SGD optimizer.
 - [train.py](./dnn/train.py) provides the details of training procedure.
 - [utils.py](./dnn/utils.py) provides a DataLoader() class analogous to the torch.utils.data.DataLoader().
