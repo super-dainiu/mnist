@@ -11,7 +11,7 @@ All of the dnn module is located in [dnn](./dnn) folder. One may feel free to ut
 - [train.py](./dnn/train.py) provides the details of training procedure.
 - [utils.py](./dnn/utils.py) provides a DataLoader() class analogous to the torch.utils.data.DataLoader().
 
-The working file [mnist.ipynb](mnist.ipynb) is for hyperparameter searching, and the file [visualizer.ipynb](visualize.ipynb) is for parameter visualization.
+The working file [mnist.ipynb](mnist.ipynb) is for hyperparameter searching, and the file [visualizer.ipynb](visualizer.ipynb) is for parameter visualization.
 
 A package of python-mnist is supposed to be installed in advance.
 
